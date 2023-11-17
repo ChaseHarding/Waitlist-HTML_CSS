@@ -1,0 +1,33 @@
+body {
+    background-image: url(./assets/jeremy-bishop-8xznAGy4HcY-unsplash.jpg);
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 2em;
+    height: 2em; 
+}
+
+nav ul li {
+    list-style: none;
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+
+ li a {
+    text-decoration: none;
+    color: white;
+ }
+
+ button {
+    height: 5em;
+    font-family: Roboto, sans-serif;
+    font-weight: 800;
+    font-size: large;
+ }
