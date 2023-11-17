@@ -25,9 +25,51 @@ nav ul li {
     color: white;
  }
 
+ li a:hover {
+    text-decoration: underline;
+    color: lightgrey;
+ }
+
  button {
     height: 5em;
     font-family: Roboto, sans-serif;
     font-weight: 800;
     font-size: large;
  }
+
+ button:hover {
+    background: lightgray;
+ }
+
+
+ .main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20px;
+    height: 100vh;
+    width: 48%;
+
+ }
+
+ header {
+    color: white;
+    display: flex;
+    flex-direction: column;
+ }
+ h1 {
+    font-size: 4em;
+    align-items: center;
+ }
+p {
+    font-size: 2em;
+}
+
+
+input {
+    background: #0000;
+    color: #ffff;
+    height: 2.5em;
+ }
+
+ 
